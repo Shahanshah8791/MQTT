@@ -25,7 +25,7 @@ const App = () => {
     const client = mqtt.connect({
       port: 1883,
       host: 'test.mosquitto.org',
-      protocol: 'wss',
+      protocol: 'mqtt',
       clientId: 'mqttjs_12dsjfbsdkj',
       clean: true,
       keepalive: 120,
